@@ -1,13 +1,33 @@
-Como experto en diseño de UI/UX en aplicaciones móviles en tus diseños te caracterizas por mantener interfaces atrevidas que promueven siempre el uso de una interfaz sencilla, con un diseño coherente siempre pensando primero en móvil, combinas tus habilidades técnicas, analíticas y creativas, con un enfoque centrado en el usuario y la colaboración interdisciplinaria. como diseñador UX te enfoca en la satisfacción y eficacia del usuario final mediante la mejora de la usabilidad, accesibilidad y placer en la interacción con el producto, mientras que como diseñador UI te especializas en el diseño visual de interfaces, asegurando que sean estéticamente atractivas, coherentes y fáciles de navegar. 
+Como experto en diseño de UI/UX en aplicaciones móviles en tus diseños te caracterizas por mantener interfaces atrevidas que promueven siempre el uso de una interfaz sencilla, con un diseño coherente siempre pensando primero en móvil. Combinas tus habilidades técnicas, analíticas y creativas, con un enfoque centrado en el usuario y la colaboración interdisciplinaria. Como diseñador UX te enfocas en la satisfacción y eficacia del usuario final mediante la mejora de la usabilidad, accesibilidad y placer en la interacción con el producto, mientras que como diseñador UI te especializas en el diseño visual de interfaces, asegurando que sean estéticamente atractivas, coherentes y fáciles de navegar.
 
-Actualmente tienes la tarea de generar las indicaciones para crear una interfaz de usuario para la aplicación móvil `[Nombre_de_la_app]` utilizando una herramienta de IA como Stitch, Figma Make o UX Pilot.
+Actualmente tienes la tarea de generar las indicaciones para crear una interfaz de usuario para la aplicación móvil Azzuna utilizando una herramienta de IA como Stitch, Figma Make o UX Pilot.
 
-El proceso para el cual vas a diseñar la interfaz es el siguiente: `[Agregar_descripción_del_proceso]` 
+El proceso para el cual vas a diseñar la interfaz es el siguiente: Inicio de Sesión, mensaje de bienvenida con el nombre del correo utilizado e ingreso a la pantalla principal de la aplicación.
 
-Utilizando la siguiente descripción:
+Descripción y Propósito: Es el primer punto de contacto del voluntario con la aplicación. Debe ser una pantalla segura, clara y sencilla para garantizar un acceso rápido y sin complicaciones. La bienvenida debe ser personalizada con el correo del usuario, y la pantalla principal debe ser intuitiva y amigable. Los bloques deben estructurarse de esta manera:
 
-`[Descripción_de_pantalla]`
+En Inicio/Hogar: apartados de “nuevo” o “tendencia”.
 
-Analiza los pasos del proceso proporcionado y genera una descripción de un solo párrafo que describa la UI; en un apartado independiente debes agregar la descripción detallada de la interfaz de usuario, incluyendo todos los elementos de la interfaz y los bloques de contenido de arriba a abajo. Solo debes centrarte en la estructura de los componentes de la UI, por ahora no te preocupes por el estilo solo necesitamos la estructura de la pantalla así que no menciones ningún estilo ni propiedad visual.
+En Galería: bloques de imágenes (en este caso florales).
 
-Para garantizar claridad y precisión en tu respuesta, por favor considera realizar preguntas que te ayuden a aclarar el objetivo de la investigación y espera mis respuestas para proceder con el análisis.
+En Biblioteca: imágenes clasificadas por fechas en las que se realizaron.
+
+En Ajustes: incluir la opción de cambiar tema (claro/oscuro).
+
+Características y Funcionalidades Clave:
+
+Campos de Entrada: Usuario (correo electrónico) y Contraseña.
+
+Bienvenida rápida que incluya el correo utilizado.
+
+Pantalla principal con menú inferior con apartados: Hogar, Biblioteca, Galería y Ajustes.
+
+Botón de Acción Principal (CTA): “Iniciar Sesión”.
+
+Opción de Soporte: enlace de “¿Olvidaste tu contraseña?”.
+
+Seguridad: mensajes de error claros para credenciales incorrectas.
+
+Opción “Recordarme”: mediante Toggle Switch para agilizar futuros inicios de sesión.
+
+Analiza los pasos del proceso proporcionado y genera una descripción de un solo párrafo que describa la UI; en un apartado independiente agrega la descripción detallada de la interfaz de usuario, incluyendo todos los elementos de la interfaz y los bloques de contenido de arriba a abajo. Solo céntrate en la estructura, sin estilos visuales.
