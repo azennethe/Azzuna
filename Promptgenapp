@@ -1,7 +1,35 @@
-Como Product Designer experto en el desarrollo de productos de software tienes conocimientos avanzados para diseñar productos digitales, también cuentas con conocimientos y experiencia como UX/UI Designer, tu rol consiste en asegurar que los usuarios interactúen correctamente con los productos digitales, atendiendo a sus necesidades y comportamientos.
+Como experto en diseño de UI/UX en aplicaciones móviles en tus diseños te caracterizas por mantener interfaces atrevidas que promueven siempre el uso de una interfaz sencilla, con un diseño coherente siempre pensando primero en móvil, combinas tus habilidades técnicas, analíticas y creativas, con un enfoque centrado en el usuario y la colaboración interdisciplinaria. como diseñador UX te enfoca en la satisfacción y eficacia del usuario final mediante la mejora de la usabilidad, accesibilidad y placer en la interacción con el producto, mientras que como diseñador UI te especializas en el diseño visual de interfaces, asegurando que sean estéticamente atractivas, coherentes y fáciles de navegar.
+Actualmente tienes la tarea de generar las indicaciones para crear pantallas de interfaz de usuario para la aplicación móvil Azzuna utilizando una herramienta de IA como Stitch, Figma Make o UX Pilot.
+El proceso para el cual vas a diseñar la interfaz es el siguiente: Inicio de Sesión, mensaje de bienvenida y ingreso a la pantalla principal de la aplicación utilizando la siguiente descripción:
+•	Descripción y Propósito: Es el primer punto de contacto del voluntario con la aplicación. Debe ser una pantalla segura, clara y sencilla para garantizar un acceso rápido y sin complicaciones, una bienvenida con nombre de correo utilizado y corta, la pantalla principal debe ser intuitiva y amigable. También los bloques deben estar estructurado de esta manera: imágenes con apartados de “nuevo o tendencia”, en galería bloques de las imágenes correspondientes en este caso florales, en biblioteca unas cuantas imágenes clasificadas por fechas en las que se realizaron y agregar en ajustes la opcion de tema.
+•	Características y Funcionalidades Clave:
+•	Campos de Entrada: Usuario (correo electrónico) y Contraseña, bienvenida rápida y que lleve el nombre del correo utilizado, la pantalla principal debe desglosar un menú en la parte inferior del dispositivo con los apartados de hogar, biblioteca, galería y ajustes.
+•	Botón de Acción Principal (CTA): "Iniciar Sesión".
+•	Opciones de Soporte: Enlace de "¿Olvidaste tu contraseña?" para recuperación de cuenta.
+•	Seguridad: Mensajes de error claros para credenciales incorrectas.
+•	Opción "Recordarme":
+Para agilizar futuros inicios de sesión en el mismo dispositivo.
+Analiza los pasos del proceso proporcionado y genera una descripción de un solo párrafo que describa la UI; en un apartado independiente debes agregar la descripción detallada de la interfaz de usuario, incluyendo todos los elementos de la interfaz y los bloques de contenido de arriba a abajo. Solo debes centrarte en la estructura de los componentes de la UI, por ahora no te preocupes por el estilo solo necesitamos la estructura de la pantalla así que no menciones ningún estilo ni propiedad visual.
+Para garantizar claridad y precisión en tu respuesta, por favor considera realizar preguntas que te ayuden a aclarar el objetivo de la investigación y espera mis respuestas para proceder con el análisis.
+Respuestas a preguntas
+1.	Nivel de Fidelidad (Estructura/Wireframe vs. Detalle): Aunque el enfoque es en la estructura, ¿deseas que la interfaz se describa para un wireframe de baja fidelidad (solo estructura y jerarquía de bloques), o deseas incluir detalles de componentes de nuestro sistema de diseño, lo que sería más cercano a un prototipo de alta fidelidad (pero aún sin propiedades visuales específicas como color o tipografía, más allá de sus roles)?
+Que tenga bloques de imágenes florales en la pantalla de inicio en un puntovisible como opcion para seleccionar, su menú este en la parte inferior como ya fue mencionado y que sea de colores vivos o entre una combinación de naranjas, amarillos.
+2.	Tema de la Interfaz: El sistema de diseño de Javerage Electoral (JEDS) es compatible con temas claro y oscuro. Para esta pantalla inicial de autenticación, ¿debemos priorizar la estructura para un entorno de tema Claro o de tema Oscuro? (Esta elección afecta las jerarquías de contraste y legibilidad).
+Si tienes la información del sistema de diseño siempre prioriza el uso del tema claro pero ten en una opcion de ajutes el tema oscuro
+3.	Componente "Recordarme": Para la funcionalidad de "Recordarme" (agilizar futuros inicios de sesión) [Query], ¿se debe utilizar un Checkbox (casilla de verificación) o un Toggle Switch (interruptor deslizante)? (Esta elección define el componente específico y su interacción).
+Preferiria el uso de un Toogle Switch, aunque la recomendación general es utilizar el componente recomendado por las tendencias que han sido demostradas en el diseño de apps móviles. También los bloques deben estar estructurado de esta manera: imágenes con apartados de “nuevo o tendencia”, en galería bloques de las imágenes correspondientes en este caso florales, en biblioteca unas cuantas imágenes clasificadas por fechas en las que se realizaron y agregar en ajustes la opcion de tema.
 
-Actualmente estas colaborando con la empresa Azzuna esta empresa se destaca por ser una solución digital accesible basada en inteligencia artificial que ayuda a las florerías a mejorar sus fotografías de productos y organizar sus catálogos para redes sociales de manera profesional, reduciendo costos y optimizando tiempo; como tarea especifica te han solicitado que diseñes una aplicación móvil para la siguiente problemática las florerías que venden en línea enfrentan dificultades para mantener presencia digital debido a fotos poco profesionales, catálogos amplios difíciles de actualizar y altos costos en servicios de fotografía y diseño externo. Debido a ello estas investigando plataformas de software que realicen actividades de gestión similares a tu proyecto o aplicaciones de software similares que ayuden con los procesos de la problemática descrita.
 
-Despliega en formato de tabla todos los resultados de las plataformas o apps que encuentres similares a la problemática descrita, incluye el nombre de la plataforma, una lista de bullet points con sus principales procesos, por cada proceso incluye su objetivo, una descripción corta y los nombres de los subprocesos que incluiría. También agrega las ventajas y áreas de oportunidad comparada con otras plataformas.
 
-Si lo consideras necesario realizame preguntas que ayuden a aclarar el objetivo de la investigación y espera mis respuestas para procesar tu respuesta.
+
+
+
+
+Promt para Stitch
+Te comparto el sistema de diseño para generar una aplicación móvil, de momento analiza la información y guardala en tu memoria para la construcción de las interfaces que te voy a solicitar:
+La información proporcionada es esencial para definir la arquitectura de diseño con precisión y cumplir con los requisitos de alta fidelidad [Query, 382] y el Javerage Electoral Design System (JEDS) [Query, 385, 491].
+Hemos confirmado tres puntos clave que ahora se integran en el prompt final:
+1.	Fidelidad y Tema: Se prioriza un prototipo de Alta Fidelidad bajo el Tema claro [Query].
+2.	Logo: El Logo de Javerage Electoral debe ser prominente en el encabezado para fidelizar la marca [Query].
+3.	Componente "Recordarme": Se utilizará un Toggle Switch (interruptor deslizante) [Query] posicionado debajo del campo de contraseña, alineado con las mejores prácticas de UI móvil.
+A continuación, se presenta la descripción de la UI en un solo párrafo y el prompt estructurado con el detalle final de los componentes.
